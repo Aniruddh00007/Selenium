@@ -18,7 +18,7 @@ public class Click {
         
         driver.findElement(By.className("s-image")).click();
         driver.findElement(By.className("s-image")).click();
-        
+        test122;
         
 	}
 }
