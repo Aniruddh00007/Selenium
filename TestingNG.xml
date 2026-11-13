@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM
+"https://testng.org/testng-1.0.dtd">
+
+<suite name="My Suite"
+       parallel="classes"
+       thread-count="4">
+
+    <test name="Parallel Testing">
+
+        <classes>
+            <class name="Amazon.openAmzon"/>
+            <class name="Amazon.Search"/>
+            <class name="Amazon.opencart"/>
+            <class name="Amazon.Checkout"/>
+        </classes>
+
+    </test>
+
+</suite>

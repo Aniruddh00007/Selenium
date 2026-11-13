@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [My Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="Parallel Testing(failed)">
+    <classes>
+      <class name="Amazon.Checkout">
+        <methods>
+          <include name="check"/>
+        </methods>
+      </class> <!-- Amazon.Checkout -->
+      <class name="Amazon.opencart">
+        <methods>
+          <include name="opencart"/>
+        </methods>
+      </class> <!-- Amazon.opencart -->
+      <class name="Amazon.Search">
+        <methods>
+          <include name="gears"/>
+          <include name="search"/>
+          <include name="searchCar"/>
+        </methods>
+      </class> <!-- Amazon.Search -->
+    </classes>
+  </test> <!-- Parallel Testing(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
