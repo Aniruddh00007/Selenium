@@ -17,6 +17,8 @@ public class Click {
         driver.get("https://www.amazon.com/");
         
         driver.findElement(By.className("s-image")).click();
+        driver.findElement(By.className("s-image")).click();
+        
         
 	}
 }
